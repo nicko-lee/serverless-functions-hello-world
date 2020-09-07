@@ -4,7 +4,12 @@
     "description": "Playground for Netlify Lambda Functions",
     "author": "nicko",
     "license": "MIT",
+    "scripts": {
+        "dev": "netlify-lambda serve functions",
+        "build": "netlify-lambda build functions"
+    },
     "dependencies": {
-      "node-fetch": "^2.1.2"
+        "netlify-lambda": "^1.4.3",
+        "node-fetch": "^2.1.2"
     }
   }
