@@ -1,0 +1,13 @@
+{
+    "name": "serverless-functions-hello-world",
+    "version": "1.0",
+    "description": "Playground for Netlify Lambda Functions",
+    "scripts": {
+      "start": "npm install && npm start"
+    },
+    "author": "imorente",
+    "license": "MIT",
+    "dependencies": {
+      "node-fetch": "^2.1.2"
+    }
+  }
