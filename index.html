@@ -8,13 +8,18 @@
 </head>
 <body>
     <div class="container">
-        <h1>Try it out</h1>
-        <form action="/.netlify/functions/hello" _lpchecked="1">
-            <p>
-              <label>What’s your name?<br><input type="text" name="name"></label>
-            </p>
-            <p><button class="btn btn-primary" type="submit">Say hello!</button></p>
-        </form>
+        <div class="w-50 p-3">
+            <h1>Try it out</h1>
+            <form action="/.netlify/functions/hello" _lpchecked="1">
+                <div class="form-group">
+                    <p>
+                    <label>What’s your name?<br></label>
+                    <input class="form-control" type="text" name="name">
+                    </p>
+                    <p><button class="btn btn-primary" type="submit">Say hello!</button></p>
+                </div>
+            </form>
+        </div>
     </div>
 
 </body>
