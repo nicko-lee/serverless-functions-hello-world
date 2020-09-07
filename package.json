@@ -1,15 +1,21 @@
 {
-    "name": "serverless-functions-hello-world",
-    "version": "0.1.0",
-    "description": "Playground for Netlify Lambda Functions",
-    "author": "nicko",
-    "license": "MIT",
-    "scripts": {
-        "dev": "netlify-lambda serve functions",
-        "build": "netlify-lambda build functions"
-    },
-    "dependencies": {
-        "netlify-lambda": "^1.4.3",
-        "node-fetch": "^2.1.2"
-    }
+  "name": "serverless-functions-hello-world",
+  "version": "1.0.0",
+  "description": "Test out serverless functions using Netlify",
+  "main": "index.js",
+  "scripts": {
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions"
+  },
+  "keywords": [],
+  "author": "nicko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicko-lee/serverless-functions-hello-world/issues"
+  },
+  "homepage": "https://github.com/nicko-lee/serverless-functions-hello-world#readme",
+  "dependencies": {
+    "netlify-lambda": "^2.0.1",
+    "node-fetch": "^2.6.1"
   }
+}
